@@ -37,8 +37,8 @@ public class Departamento {
     
     //getters y setters. Métodos get y set para poder consultar y modificar cada uno de los atributos desde fuera de la clase
     //Getters
-    public String getNombre () {return nombre;}
-    public String getDescripcion () {return descripcion;}
+    public String getNombre () {return this.nombre;}
+    public String getDescripcion () {return this.descripcion;}
     
     
     //Setters

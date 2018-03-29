@@ -63,12 +63,12 @@ public class Empleado {
     
     // Getters
 
-    public int getIdEmpleado() {return idEmpleado;}
-    public String getNombre() {return nombre;}
-    public String getApellidos() {return apellidos;}
-    public String getTrabajo() {return trabajo;}
-    public double getSalario() {return salario;}
-    public String getNombreDepartamento() {return nombreDepartamento;}
+    public int getIdEmpleado() {return this.idEmpleado;}
+    public String getNombre() {return this.nombre;}
+    public String getApellidos() {return this.apellidos;}
+    public String getTrabajo() {return this.trabajo;}
+    public double getSalario() {return this.salario;}
+    public String getNombreDepartamento() {return this.nombreDepartamento;}
     
     // Setters
     
