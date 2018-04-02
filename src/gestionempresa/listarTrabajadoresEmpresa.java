@@ -25,18 +25,18 @@ public class listarTrabajadoresEmpresa {
     otros 3 serán contables y trabajarán en el departamento de "Contabilidad" 
     y los tres últimos serán "Comerciales" y trabajarán en el departamento de "Ventas".*/
     
-    static private Empleado emp_uno = new Empleado(1, "Primer", "Empleado", "Programador", 21000.00, "Desarrollo");
-    static private Empleado emp_dos = new Empleado(2, "Segundo", "Empleado", "Programador", 19500.50, "Desarrollo");
-    static private Empleado emp_tres = new Empleado(3, "Tercer", "Empleado", "Programador", 24000.00, "Desarrollo");
-    static private Empleado emp_cuatro = new Empleado(4, "Cuarto", "Empleado", "Administrador", 15000.00, "Sistemas");
-    static private Empleado emp_cinco = new Empleado(5, "Quinto", "Empleado", "Administrador", 19000.00, "Sistemas");
-    static private Empleado emp_sexto = new Empleado(6, "Sexto", "Empleado", "Administrador", 23000.00, "Sistemas");
-    static private Empleado emp_septimo = new Empleado(7, "Septimo", "Empleado", "Contable", 17000.00, "Contabilidad");
-    static private Empleado emp_octavo = new Empleado(8, "Octavo", "Empleado", "Contable", 31000.00, "Contabilidad");
-    static private Empleado emp_noveno = new Empleado(9, "Noveno", "Empleado", "Contable", 23000.00, "Contabilidad");
-    static private Empleado emp_decimo = new Empleado(10, "Decimo", "Empleado", "Comercial", 21000.23, "Ventas");
-    static private Empleado emp_undecimo = new Empleado(11, "Undecimo", "Empleado", "Comercial", 25000.00, "Ventas");
-    static private Empleado emp_duodecimo = new Empleado(12, "Duodecimo", "Empleado", "Comercial", 21000.00, "Ventas");
+    static private Empleado emp_uno = new Empleado(1, "Javier", "Salazar", "Programador", 4000.00, "Desarrollo");
+    static private Empleado emp_dos = new Empleado(2, "Francisco", "Muñiz", "Programador", 2100.50, "Desarrollo");
+    static private Empleado emp_tres = new Empleado(3, "David", "Fernández", "Programador", 24000.00, "Desarrollo");
+    static private Empleado emp_cuatro = new Empleado(4, "Alejandro", "Sanz", "Administrador", 1500.00, "Sistemas");
+    static private Empleado emp_cinco = new Empleado(5, "Sergi", "Guardiola", "Administrador", 1900.00, "Sistemas");
+    static private Empleado emp_sexto = new Empleado(6, "Marcos", "Alonso", "Administrador", 3000.00, "Sistemas");
+    static private Empleado emp_septimo = new Empleado(7, "Izan", "Álvarez", "Contable", 2000.00, "Contabilidad");
+    static private Empleado emp_octavo = new Empleado(8, "Claudia", "Perez", "Contable", 3000.00, "Contabilidad");
+    static private Empleado emp_noveno = new Empleado(9, "Ruben", "Marés", "Contable", 1900.00, "Contabilidad");
+    static private Empleado emp_decimo = new Empleado(10, "Sara", "Arizabal", "Comercial", 1570.23, "Ventas");
+    static private Empleado emp_undecimo = new Empleado(11, "Victor", "Muñoz", "Comercial", 1800.00, "Ventas");
+    static private Empleado emp_duodecimo = new Empleado(12, "Andrea", "Campos", "Comercial", 3000.00, "Ventas");
     
     //  A continuación se creará un ArrayList denominado listaDepartamentos donde se añadirán los 4 objetos departamentos creados y un ArrayLis denominado listaEmpleados donde se añadirán los 12 objetos empleados creados.
     
