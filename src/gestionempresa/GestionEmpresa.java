@@ -54,18 +54,8 @@ public class GestionEmpresa {
          //______________________________________________________________________________________________//
             //recorremos el arraylist de empleados
             
-            Iterator <Empleado> itr_emp2 = listarTrabajadoresEmpresa.listaEmpleados.iterator();
-            System.out.println("Eliminación de empleados con salario mayor de 2000 €: ");
-            System.out.println(" ");
-            while(itr_emp2.hasNext()) {
-                Empleado aeliminar = itr_emp2.next();
-               
-                if(aeliminar.getSalario() > 2000) { //en caso de que ganen mÃ¡s de 2000â‚¬ eliminar dicho empleado de listaEmpleados.    
-                    itr_emp2.remove();
-                    System.out.println("    " + aeliminar.getNombre() + " " + aeliminar.getApellidos() + " con salario de " + aeliminar.getSalario() + " € ");
-                    System.out.println("Eliminación realizada con éxito ");
-                }                                                  
-            }
+            eliminarTrabajadoresEmpresa.eliminar();
+
             System.out.println(" ");
             System.out.println("Lista empleados después de la consulta correspondiente a empleados cuyo salario es menor de 2000 € : ");
             System.out.println(" ");
